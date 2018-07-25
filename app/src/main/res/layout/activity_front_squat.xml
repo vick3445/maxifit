@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.balmermwongera.maxifit.quadriceps.frontSquat">
+
+    <ImageView
+        android:id="@+id/imgNeckFront"
+        android:layout_width="350dp"
+        android:layout_height="296dp"
+        android:layout_marginBottom="487dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/quad2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/grip_the_barbell_with_your_arm_crossed_for_a_better_grip_stand_with_a_straight_torso_and_legs_at_your_shoulder_width_as_you_breathe_in_lower_the_barbell_by_bending_your_knees_keep_your_heels_on_the_floor_all_the_time_and_make_sure_that_your_thighs_are_parallel_to_the_floor_as_you_breathe_out_begin_to_straighten_the_legs_slowly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+
+</android.support.constraint.ConstraintLayout>

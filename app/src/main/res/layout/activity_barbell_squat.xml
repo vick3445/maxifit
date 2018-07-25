@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.balmermwongera.maxifit.lowerbody.BarbellSquat">
+
+
+    <ImageView
+        android:id="@+id/imgNeckFront"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="487dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/quad3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/grip_the_barbell_with_a_wide_grip_and_place_the_bar_on_your_shoulders_keep_your_lower_back_a_little_bent_and_your_feet_at_your_feet_at_your_shoulder_width_push_you_elbows_a_little_back_so_that_your_shoulder_blades_nearly_meet_as_you_breathe_in_start_lowering_the_barbell_by_bending_your_knees_keeping_your_heels_on_the_floor_all_the_time_and_moving_your_torso_a_little_forward_return_to_the_starting_position_as_you_breathe_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+</android.support.constraint.ConstraintLayout>

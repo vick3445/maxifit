@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_shaft"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.655"
+            android:src="@drawable/maxifit" />
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="MAXIFIT \n\t\t\t\t\t\t\tapp"-->
+        <!--android:textSize="20sp"-->
+        <!--android:alpha="0.4"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginTop="200dp"/>-->
+
+    </RelativeLayout>
+</LinearLayout>

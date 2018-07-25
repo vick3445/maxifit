@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.balmermwongera.maxifit.backExtensors.deadLift">
+
+    <ImageView
+        android:id="@+id/imgNeckFront"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="487dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/back4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/place_the_barbell_on_the_floor_in_front_of_yourself_your_feet_and_your_thighs_should_be_in_one_line_and_at_the_same_distance_from_the_bar_with_your_toes_slightly_facing_outside_grab_the_bar_using_a_shoulder_width_pronated_grip_slightly_or_a_grip_slightly_wider_than_a_shoulder_width_grip_place_your_shoulders_right_above_the_bar_keep_your_head_looking_forward_all_the_time_while_performing_the_exercise_your_back_should_be_straight_with_a_bend_at_the_waist_use_your_leg_and_back_muscles_while_lifting_the_weight_pull_the_bar_as_you_stand_up_slightly_touching_your_thighs_while_standing_up_move_your_shoulders_back_and_you_stand_up_slightly_touching_your_thighs_while_standing_up_move_your_shoulders_back_and_make_your_blades_meet_at_the_top_of_the_movement_slowly_lower_the_barbell_by_bending_at_the_knees_and_moving_your_hip_back_hold_the_barbell_as_close_to_the_legs_as_possible_keep_your_heels_pressed_against_the_floor_all_the_time_and_do_not_move_the_weight_above_your_toes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>

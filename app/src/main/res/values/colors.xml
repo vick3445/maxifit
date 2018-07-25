@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f67e2e</color>
+    <color name="colorPrimaryDark">#f8a46c</color>
+    <color name="apricot_peach">#fbccac</color>
+    <color name="bittersweet">#f87966</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorblack">#000000</color>
+    <color name="danube">#2ea6f6</color>
+    <color name="pomegranate">#f64e2e</color>
+    <color name="silver">#b7b9b6</color>
+    <color name="onahau">#c7f3ff</color>
+    <color name="aquamarine">#2ef6ce</color>
+    <color name="mine_shaft">#2b2b2b</color>
+</resources>

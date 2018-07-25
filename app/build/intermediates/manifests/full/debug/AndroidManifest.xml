@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.balmermwongera.maxifit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.balmermwongera.maxifit.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="appresources.cardio" />
+        <activity android:name="bodyExercise.upperbody" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bodyExercise.midbody" />
+        <activity android:name="bodyExercise.lowerbody" />
+        <activity android:name="appresources.exercise" />
+        <activity android:name="women.upper2body" />
+        <activity android:name="women.mid2body" />
+        <activity android:name="women.lower2body" />
+        <activity android:name="upperbody.neck" />
+        <activity android:name="upperbody.shoulder" />
+        <activity android:name="upperbody.triceps" />
+        <activity android:name="upperbody.biceps" />
+        <activity android:name="upperbody.chest" />
+        <activity android:name="upperbody.traps" />
+        <activity android:name="upperbody.forearmAndWrists" />
+        <activity android:name="com.example.balmermwongera.maxifit.CustomListAdapterNeck" />
+        <activity android:name="neck.neckFront" />
+        <activity android:name="neck.neckBack" />
+        <activity android:name="neck.neckSeated" />
+        <activity android:name="neck.neckUp" />
+        <activity android:name="neck.neckDown" />
+        <activity android:name="midbody.abs" />
+        <activity android:name="midbody.lats" />
+        <activity android:name="midbody.backExtensors" />
+        <activity android:name="midbody.glutes" />
+        <activity android:name="abdomen.reverseCrunches" />
+        <activity android:name="shoulder.dumbellPress" />
+        <activity android:name="shoulder.lateralRaise" />
+        <activity android:name="shoulder.reverveFly" />
+        <activity android:name="shoulder.lyingLateral" />
+        <activity android:name="shoulder.frontRaise" />
+        <activity android:name="biceps.dumbellPress" />
+        <activity android:name="biceps.dumbellCurls" />
+        <activity android:name="biceps.hammerCurls" />
+        <activity android:name="biceps.concerntrationCurls" />
+        <activity android:name="biceps.preacherCurls" />
+        <activity android:name="chest.benchPress" />
+        <activity android:name="chest.dumbbellPress" />
+        <activity android:name="chest.parallelBars" />
+        <activity android:name="chest.butterflyPress" />
+        <activity android:name="chest.inclineBench" />
+        <activity android:name="forearmAndWrists.upBarbelWrist" />
+        <activity android:name="forearmAndWrists.overBench" />
+        <activity android:name="forearmAndWrists.pulleyWrist" />
+        <activity android:name="forearmAndWrists.backWrist" />
+        <activity android:name="forearmAndWrists.downBarbelWrist" />
+        <activity android:name="traps.cableRow" />
+        <activity android:name="traps.dumbellShrug" />
+        <activity android:name="traps.pullUpShrug" />
+        <activity android:name="traps.barbellShrug" />
+        <activity android:name="traps.uprightRow" />
+        <activity android:name="triceps.barTip" />
+        <activity android:name="triceps.benchDip" />
+        <activity android:name="triceps.pushUps" />
+        <activity android:name="triceps.kickBack" />
+        <activity android:name="triceps.ropeAttachment" />
+        <activity android:name="abs.reverse" />
+        <activity android:name="abs.legRaise" />
+        <activity android:name="abs.benchCruches" />
+        <activity android:name="abs.obliqueFLoor" />
+        <activity android:name="abs.twisting" />
+        <activity android:name="backExtensors.superman" />
+        <activity android:name="backExtensors.hyperextension" />
+        <activity android:name="backExtensors.goodmorning" />
+        <activity android:name="backExtensors.deadLift" />
+        <activity android:name="backExtensors.ballBackExtension" />
+        <activity android:name="glutes.dumbellLunges" />
+        <activity android:name="glutes.cableKickback" />
+        <activity android:name="glutes.gluteKickback" />
+        <activity android:name="glutes.legBridge" />
+        <activity android:name="glutes.legSquats" />
+        <activity android:name="lats.pullUp" />
+        <activity android:name="lats.dumbbellRow" />
+        <activity android:name="lats.barbellRow" />
+        <activity android:name="lats.pullDown" />
+        <activity android:name="lats.dumbbellPullOver" />
+        <activity android:name="lowerbody.quadriceps" />
+        <activity android:name="lowerbody.hamstrings" />
+        <activity android:name="lowerbody.calfMuscle" />
+        <activity android:name="lowerbody.burpee" />
+        <activity android:name="burpee.halfBurpee" />
+        <activity android:name="burpee.standardBurpee1" />
+        <activity android:name="calfMuscle.jumpRope" />
+        <activity android:name="calfMuscle.seatedRaise" />
+        <activity android:name="calfMuscle.standingRaise" />
+        <activity android:name="calfMuscle.rockingRaise" />
+        <activity android:name="calfMuscle.calfRise" />
+        <activity android:name="hamstrings.barbellMorning" />
+        <activity android:name="hamstrings.seatedCurls" />
+        <activity android:name="hamstrings.thighAbductor" />
+        <activity android:name="hamstrings.stiffDeadlift" />
+        <activity android:name="hamstrings.lyingCurls" />
+        <activity android:name="quadriceps.inclineLeg" />
+        <activity android:name="quadriceps.frontSquat" />
+        <activity android:name="quadriceps.BarbellSquat" />
+        <activity android:name="quadriceps.plieSquat" />
+        <activity android:name="quadriceps.bodyWeightSquat" />
+        <activity android:name="cardios.ellipticalMachine" />
+        <activity android:name="cardios.trendMill" />
+        <activity
+            android:name="com.example.balmermwongera.maxifit.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
