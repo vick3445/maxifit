@@ -13,8 +13,10 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.655"
-            android:src="@drawable/maxifit" />
+            android:alpha="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/maxifitsplash" />
+
         <!--<TextView-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
